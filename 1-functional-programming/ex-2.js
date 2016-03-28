@@ -6,6 +6,6 @@ let decorate = string =>
 	// Wrong!  (unless decorator never changes)
 
 console.log(decorate('Welcome'));
-decorator = '--'
+decorator = '--';
 console.log(decorate('this is a comment'));
 
