@@ -2,14 +2,14 @@
 
 > Functional programming is a style of programming that emphasizes the
 > evaluation of expressions, rather than execution of commands.
--- comp.lang.functional FAQ
+- *comp.lang.functional FAQ*
 
 Ihan löperö määrittely!
 [esimerkkiohjelma](ex-1.js)
 
 > In functional code, the output value of a function depends only on the
 > arguments that are input to the function.
--- Wikipedia
+- *Wikipedia*
 
 Muuten hyvä, paitsi että tässä sanaa "funktio" käytetään
 ohjelmointimerkityksessä; matemaattisesta näkökulmasta tämä on
