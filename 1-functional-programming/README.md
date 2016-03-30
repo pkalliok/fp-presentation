@@ -44,6 +44,10 @@ hyvin yhteen.
 - Funktionaaliset *kielet* ovat ohjelmointikieliä, joissa
   funktionaaliset tekniikat ovat helppoja käyttää ja joiden
   toteutuksissa on paljon funktionaalisia kieliominaisuuksia.
+- Funktionaaliset *käsitteet* ovat sanoja, joita käytetään erilaisista
+  funktionaalisissa kielissä usein esiintyvistä asioista.  Niitä on
+  paljon ja ne ovat usein hienon kuuloisia, mikä saa funktionaalisen
+  ohjelmoinnin vaikuttamaan hienolta (tai vaikealta).
 
 Funktionaaliset tekniikat ovat valuneet funktionaalisista kielistä
 muihin kieliin noin 50 vuotta.  Kun ohjelmoijat käyttävät niitä muissa
