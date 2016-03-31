@@ -1,5 +1,10 @@
 'use strict';
 
+// Non-functional way: tie all services to specific data models,
+// shopitems.find_most_valuable()
+// Functional way: pass all input as parameters,
+// find_most_valuable(shopitems.all())
+
 // since it's not tied to any object, it can be used to find the most
 // valuable item of any list
 	
