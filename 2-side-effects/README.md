@@ -14,17 +14,16 @@ saa vaikuttaa mihinkään muuhun kuin palautusarvoonsa.
 ## Portaat sivuvaikutuksettomuuteen
 
 1. sovelluksen tilasiirtymät lasketaan funktionaalisesti, mutta
-   päivitetään imperatiivisesti ([esimerkkiohjelma](ex-5.js))
+   päivitetään imperatiivisesti
 2. sovelluksen kaikki tietorakenteet ovat muuttumattomia, mutta
    kommunikaatio (I/O) hoidetaan imperatiivisesti
-   ([esimerkkiohjelma](ex-6.js))
    - tämä on vaikeaa laiskoissa kielissä!
    - Clojure suosii tätä tapaa
 3. ohjelma on kuvaus tietynlaisesta vuorovaikutuksesta maailman kanssa
-   ([esimerkkiohjelma](ex-7.js))
    - käytännössä vain Haskell, Mercury ym. puhtaat kielet
 
 Funktionaalisuuden hyödyt (ja haitat) kasvavat, mitä pidemmälle edetään.
+"If you made a destructive update, you'll hope you didn't"
 
 ## Miten voin rakentaa koodini niin, ettei tilamuutoksia ole?
 
