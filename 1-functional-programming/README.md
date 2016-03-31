@@ -51,3 +51,13 @@ voi nähdä kaksi opetusta:
    käyttää sitä mieluummin kuin vaihtoehtoisia tekniikoita.
 2. Suunta on aina vain funktionaaliseen päin.
 
+## Miltä funktionaalinen ohjelmointi tuntuu?
+
+- imperatiivinen ohjelma on sarja ohjeita, miten tehdään
+- funktionaalinen ohjelma on kuvaus, mitä laskennan tulos on
+- funktionaalinen ohjelma on merkitykseltään (eli tulokseltaan) sama
+  riippumatta laskentajärjestyksestä, rinnakkaisuudesta, tai siitä, missä
+  tilassa järjestelmä on
+- monta eri tasoa, joilla voi sanoa "mitä jokin on":
+  [esimerkkiohjelma](ex-5.js)
+
