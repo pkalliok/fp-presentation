@@ -1,7 +1,8 @@
 # Applikatiiviset tietorakenteet
 
 Tietorakenne on applikatiivinen, mikäli sen kaikki operaatiot jättävät
-alkuperäisen tietorakenteen ennalleen.
+alkuperäisen tietorakenteen ennalleen ja palauttavat uuden, erilaisen
+tietorakenteen.
 
 ## Kuulostaako tuhlailevalta?
 
@@ -35,6 +36,29 @@ funktionaalinen toisia
   ([esimerkkiohjelma](ex-3.js))
 - tämä on lähestulkoon tärkein syy, miksi alkuvaiheen tekoälytutkimus
   tehtiin LISPillä :D
+- Nykyään ei kuitenkaan niin tärkeää:
+  - kielet ovat kehittyneet
+  - taulukoitakin käsitellään iteraattoreilla / keräelmillä
+  - kielissä sisäänrakennettuna tehokkaita assosiaatiorakenteita
 
-## Hajautukset vs puut
+## Puut vs hajautukset
+
+- aika samanlainen case kuin listat vs taulukot
+- hajautuksen destruktiivinen päivitys O(1), applikatiivinen O(n),
+  puun applikatiivinen päivitys O(log(n)).
+  - tilavaativuus noudattaa samaa kaavaa
+- tarinan opetus: koodin selkeyden ja tehokkuuden vuoksi on tärkeää,
+  että kielessä on helppokäyttöinen, applikatiivinen map-toteutus!
+  - Clojuressa on
+
+## Symbolit (tai avainsanat) vs merkkijonot
+
+- merkkijonot, joita voi muutella destruktiivisesti, ovat evil
+- jos ei voi, samansisältöisen merkkijonon voi jakaa kaikkialle, missä
+  sitä tarvitaan
+- jos *kaikki* (lyhyet) merkkijonot ovat sisällön perusteella
+  identtisiä, säästyy sekä tilaa että tehoja merkkijonojen vertailussa
+- merkkijonojen käsittelystä tulee yhtä kevyttä kuin enumien -> ei
+  tarvetta käyttää numeroita / enumeja ilmaisemaan kategorioita
+- tästä on kyse symboli-tietotyypissä
 
