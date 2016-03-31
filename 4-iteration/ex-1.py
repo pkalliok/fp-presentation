@@ -19,3 +19,13 @@ def sibling_pairs(people):
 
 print sibling_pairs(data)
 
+# Of course, you can (mis)use comprehensions for weird stuff like:
+
+def duplicate_unless_already_duplicated(elems):
+    return [element
+            for elem1, elem2 in zip(elems, elems[1:])
+            for element in ([elem1, elem1] if elem1 != elem2 else [])] + \
+                    [elems[-1], elems[-1]]
+
+print duplicate_unless_already_duplicated([1, 1, 2, 3, 3, 4, 5])
+

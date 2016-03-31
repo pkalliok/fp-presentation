@@ -18,6 +18,7 @@
   mapille, ...) tehdään muunnoksia ja poimintoja
   - joidenkin tutkimusten mukaan 95% kaikista toistotarpeista saa
     katetuksi keräelmillä jopa ilman mitään apukeinoja
+- tuottavat aina listoista listoja (tai yleisemmin: monadeista monadeja)
 - helppolukuisia, vaativat syntaktista tukea kieleltä
   - Python ([esimerkkiohjelma](ex-1.py))
   - Clojure ([esimerkkiohjelma](ex-1.clj))
