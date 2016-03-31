@@ -1,7 +1,10 @@
 'use strict';
 
 // Imperatiivinen: "luvun n kertoman saa siten, että käydään läpi luvut 1..n,
-// ja kerrotaan ykkönen niillä kaikilla"
+// ja kerrotaan ykkönen niillä kaikilla"  "lukujen läpikäynti
+// tarkoittaa, että otetaan ensimmäinen luku, katsotaan onko se
+// viimeinen luku, jos on, lopetetaan, jos ei, tehdään se kertominen ja
+// kasvatetaan ensimmäistä lukua yhdellä ja toistetaan"
 
 function fact0(n) {
 	let result = 1;
