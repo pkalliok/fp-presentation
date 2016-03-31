@@ -33,14 +33,12 @@ sivuvaikutuksettomuus, joka on funktionaalisuuden määritelmä.
 
 - Funktionaaliset *tekniikat* ovat ohjelmointitapoja, joilla
   funktionaalinen ohjelmointi on mahdollisimman näppärää.
-- Funktionaaliset *kieliominaisuudet* ovat tapoja toteuttaa
-  funktionaalisten ohjelmien suoritus, joista ohjelmoijan ei pitäisi
-  tarvita tietää, mutta jotka parantavat ohjelmien toimintaa.
-- Funktionaaliset *kielet* ovat ohjelmointikieliä, joissa
-  funktionaaliset tekniikat ovat helppoja käyttää ja joiden
-  toteutuksissa on paljon funktionaalisia kieliominaisuuksia.
+- Funktionaaliset *kieliominaisuudet* ovat funktionaalisia tekniikoita
+  tukevia ohjelmointikielten tai kirjastojen ominaisuuksia.
+- Funktionaaliset *kielet* ovat ohjelmointikieliä, joiden toteutuksissa
+  on paljon funktionaalisia kieliominaisuuksia.
 - Funktionaaliset *käsitteet* ovat sanoja, joita käytetään erilaisista
-  funktionaalisissa kielissä usein esiintyvistä asioista.  Niitä on
+  funktionaalisissa ohjelmissa usein esiintyvistä asioista.  Niitä on
   paljon ja ne ovat usein hienon kuuloisia, mikä saa funktionaalisen
   ohjelmoinnin vaikuttamaan hienolta (tai vaikealta).
 
