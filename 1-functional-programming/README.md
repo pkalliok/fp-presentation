@@ -1,40 +1,35 @@
 # Mitä on funktionaalinen ohjelmointi?
 
-*comp.lang.functional FAQ*:
+*comp.lang.functional FAQ*: ([esimerkkiohjelma](ex-1.js))
 > Functional programming is a style of programming that emphasizes the
 > evaluation of expressions, rather than execution of commands.
 
 Ihan löperö määrittely!
-[esimerkkiohjelma](ex-1.js)
 
-*Wikipedia*:
+*Wikipedia*: ([esimerkkiohjelma](ex-2.js))
 > In functional code, the output value of a function depends only on the
 > arguments that are input to the function.
 
 Muuten hyvä, paitsi että tässä sanaa "funktio" käytetään
 ohjelmointimerkityksessä; matemaattisesta näkökulmasta tämä on
 tautologia.  Lisäksi ehto on edelleen liian löyhä.
-[esimerkkiohjelma](ex-2.js)
 
-Hyvä määritelmä ohjelmoijille:
+Hyvä määritelmä ohjelmoijille: ([esimerkkiohjelma](ex-3.js))
 > Funktionaalinen ohjelmointi on ohjelmointityyli, jossa mikään
 > aliohjelma (= funktio) ei **saa** vaikuttaa mihinkään muuhun kuin
 > omaan lopputulokseensa (= palautusarvoonsa).
 
-[esimerkkiohjelma](ex-3.js)
-
 Hyvä määritelmä niille, joilla ei ole ennakkokäsityksiä ohjelmoinnista
 (eikä siis mitään hajua muutenkaan, mistä puhutaan):
-> Funktionaalisessa ohjelmoinnissa jokainen ohjelma on määritelmä, mitä
-> tämän ohjelman haluttu lopputulos on.
-
-[esimerkkiohjelma](ex-4.js)
+([esimerkkiohjelma](ex-4.js))
+> Funktionaalisessa ohjelmoinnissa jokainen ohjelma on määritelmä sille,
+> mitä tämän ohjelman haluttu lopputulos on.
 
 ## Määritelmän tuolle puolen
 
-Kaiken ytimessä on sivuvaikutuksettomuus.  Mutta ohjelmoijan kannalta
-funktionaalinen ohjelmointi on (valtava) joukko asioita, jotka toimivat
-hyvin yhteen.
+Ohjelmoijan kannalta funktionaalinen ohjelmointi on (valtava) joukko
+asioita, jotka toimivat hyvin yhteen.  Kaiken ytimessä on
+sivuvaikutuksettomuus, joka on funktionaalisuuden määritelmä.
 
 - Funktionaaliset *tekniikat* ovat ohjelmointitapoja, joilla
   funktionaalinen ohjelmointi on mahdollisimman näppärää.
