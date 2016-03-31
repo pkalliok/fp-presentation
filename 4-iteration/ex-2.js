@@ -1,3 +1,4 @@
+'use strict';
 
 const _ = require('ramda');
 const data = [{name: "Panu", dad: "Mikko", mom: "Podo"},

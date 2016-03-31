@@ -30,11 +30,13 @@
 - ottavat tiedon varsinaisesta operaatiosta argumenttina, joka on
   funktio (katso [korkeamman asteen funktiot](../6-first-class-functions))
 - hyvin abstrakteja, tekevät mahdolliseksi kirjoittaa tiivistä koodia
+  ([esimerkkiohjelma](ex-2.js))
 - lähes vaativat kieleltä kunnollista tukea nimettömille funktioille ja
   sulkeumille
 - omituista kyllä, nämä näyttävät olevan ensimmäinen mainstreamiksi
   tullut funktionaalinen toistotekniikka (Javan streamit, useiden
   kielten .map-, .filter- ymv. metodit)
+  - tärkeä ominaisuus: abstrahoivat, onko alla induktiivinen tietorakenne
 - esimerkiksi listan (tai taulukon) minkä tahansa operaation voi
-  toteuttaa reduce:a parametrisoimalla
+  toteuttaa reduce:a parametrisoimalla ([esimerkkiohjelma](ex-3.js))
 
