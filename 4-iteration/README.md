@@ -40,3 +40,21 @@
 - esimerkiksi listan (tai taulukon) minkä tahansa operaation voi
   toteuttaa reduce:a parametrisoimalla ([esimerkkiohjelma](ex-3.js))
 
+## Rekursio
+
+- kaikkein perinteisin, selkeä, ei vaadi periaatteessa kieleltä mitään tukea
+  - suorastaan vaikea estää, jos kielessä on funktiot, joilla on nimi
+- huonossa maineessa, yleensä huonoista syistä
+  - joissain oppilaitoksissa valehdellaan, että rekursiiviset ratkaisut
+    ovat tehottomampia, esimerkkinä fibonaccin lukusarjan järjetön
+    toteutus
+  - huolena pinon loppuminen -> ihmiset välttelevät rekursiota myös
+    tilanteissa, joissa ei pitäisi olla mitään huolta
+  - kunnon funktionaalinen ohjelmointikieli eliminoi ns. häntärekursiot
+- tuottaa selkeää ja virheetöntä koodia, jota on helppoa lukea, kunhan
+  saa "valaistumisen"
+- soveltuu todella monenlaisiin asioihin (myös indeterminismi, ikuinen
+  toisto, puiden käsittely, haku, ...)
+- esimerkiksi yksinkertainen [glob-täsmäys](ex-4.js), muita esimerkkejä
+  [applikatiivisissa tietorakenteissa](../3-data-structures/).
+
