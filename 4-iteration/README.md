@@ -58,3 +58,17 @@
 - esimerkiksi yksinkertainen [glob-täsmäys](ex-4.js), muita esimerkkejä
   [applikatiivisissa tietorakenteissa](../3-data-structures/).
 
+## Mitään ohjenuoraa?
+
+- ihan mielipidekysymys, mutta...
+- rekursio kannattaa opetella, koska se on yleiskäyttöisin
+- käytä keräelmiä tai iteraattoreita yksinkertaisissa tapauksissa
+- ... ja rekursiota monimutkaisissa
+- moni monimutkainen muunnos tulee yksinkertaiseksi, kun sen jakaa
+  osiin. [esimerkkiohjelma](ex-5.clj)
+- vähän niin kuin unixissa :)  esim. frekvenssijakaumanhan saa tietenkin
+  kätevästi lisäämällä jonkin komennon perään `sort | uniq -c | sort -nr`
+- kannattaa muistaa joukko-operaatiot!  Ne ovat mielettömän käteviä moniin
+  asioihin.
+  - samoin relaatioalgebra
+
