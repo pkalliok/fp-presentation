@@ -10,6 +10,9 @@ var assert = require('assert');
 function test_partition() {
 	let data = [2, 1, 3];
 	let index = ex3.partition(data, 0, 2);
+	// it would be even worse if ex3.partition didn't take its input
+	// as an argument!  We would have to set up objects etc.
+
 	let i = 0;
 	for ( ; i < index; i++ ) {
 		assert(data[i] < data[index], "bad data at " + i);
@@ -19,9 +22,6 @@ function test_partition() {
 	}
 }
 
-// it would be even worse if test_partition didn't take its input as an
-// argument!
-
 test_partition();
 
 // functional code can be tested by simple input-output relations.
@@ -29,9 +29,12 @@ test_partition();
 var _ = require('ramda');
 
 function test_partition2() {
-	const norm_list = _.sortBy(_.identity);
-	assert.deepEqual(norm_list(ex3.partition2([2, 1, 3])[1]), [2, 3]);
-	assert.deepEqual(norm_list(ex3.partition2([3, 1, 4, 2])[0]), [1, 2]);
+	const norm_lists = _.map(_.sortBy(_.identity));
+	assert.deepEqual(norm_lists(ex3.partition2([2, 1, 3])),
+			[[1], [2, 3]]);
+	assert.deepEqual(norm_lists(ex3.partition2([3, 2, 4, 1])),
+			[[1, 2], [3, 4]]);
+	// Also, works as documentation about what partition2 does.
 }
 
 test_partition2();
