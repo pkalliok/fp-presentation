@@ -53,4 +53,39 @@ erilaista kuin esimerkiksi olio-ohjelmien suunnittelu.
      niille yhteiset asiat
   2. tee uusi funktio _h_, josta _f_ ja _g_ ovat saatavissa
      parametrisoimalla ([esimerkkiohjelma](ex-1.js))
+- käytännössä *minkä tahansa* duplikaation voi poistaa parametrisoimalla
+- tämä prosessi tuottaa "yleistyksiä", jotka tarpeeksi yleisiksi
+  tullessaan vastaavat erilaisia matematiikan käsitteitä
+  - tästä syystä funktionaalisessa ohjelmoinnissa käytetään joskus niin
+    käsittämätöntä terminologiaa
+
+## Eroja oliotyyliin
+
+- rajapinnan laajennettavuus vs tietomallin laajennettavuus
+  - oliosuunnittelijat pyrkivät vakioimaan rajapinnat, jotta rajapinnan
+    takana voisi olla monenlaisia tietomalleja (= tietomallin
+    laajennettavuus)
+  - funktionaaliset suunnittelijat pyrkivät vakioimaan tietorakenteet,
+    jotta niille voisi tehdä loputtomasti uusia palveluita (= rajapinnan
+    laajennettavuus)
+  - molempia on vaikea saada!  Riippuu ongelmasta, kummasta on enemmän
+    hyötyä.
+- parametrisointi argumenttina vs parametrisointi tietotyypissä
+  - oliosuunnittelijat sitovat yleensä funktioiden/metodien
+    spesialisaation siihen, millaisia tietotyyppejä ne käsittelevät
+    - esim. pinta-alan laskeminen toimii sen mukaan, kysytäänkö sitä
+      ympyrältä vai neliöltä
+  - funktionaaliset suunnittelijat sitovat funktioiden spesialisaation
+    siihen, mitä argumentteja niille annetaan
+    - esim. map-funktiolle voi antaa argumentiksi ympyrän pinta-ala
+      -funktion tai neliön pinta-ala -funktion
+  - [esimerkkiohjelma](ex-2.js)
+- yleiskäyttöiset vs erikoistuneet komponentit
+  - olio-ohjelmissa suurin osa "komponenteista" on eri tilanteisiin
+    erikoistuneita tietotyyppejä
+  - funktionaalisissa ohjelmissa "komponentit" ovat erilaisia
+    mahdollisimman yleiskäyttöisiä palveluita
+  - näiden palveluiden opetteluun kestää yhteensä paljon aikaa, niitä
+    voi käyttää kaikkeen, ja niillä kirjoitetun koodin lukeminen on
+    hidasta, jos ei tunne käytettyjä avukkeita -> korkea oppimiskynnys
 
