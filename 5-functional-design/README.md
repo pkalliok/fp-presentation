@@ -76,7 +76,7 @@ erilaista kuin esimerkiksi olio-ohjelmien suunnittelu.
     - esim. pinta-alan laskeminen toimii sen mukaan, kysytäänkö sitä
       ympyrältä vai neliöltä
   - funktionaaliset suunnittelijat sitovat funktioiden spesialisaation
-    siihen, mitä argumentteja niille annetaan
+    erikseen annettuihin argumentteihin
     - esim. map-funktiolle voi antaa argumentiksi ympyrän pinta-ala
       -funktion tai neliön pinta-ala -funktion
   - [esimerkkiohjelma](ex-2.js)
