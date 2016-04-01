@@ -1,0 +1,1 @@
+# Kapselointi funktionaalisessa ohjelmoinnissa

@@ -13,8 +13,9 @@ Aiheet:
 - [Sivuvaikutuksettomuus](2-side-effects/)
 - [Applikatiiviset tietorakenteet](3-data-structures/)
 - [Funktionaaliset toistorakennetyylit](4-iteration/)
-- [Funktiot arvoina](5-first-class-functions/)
-- [Äärettömät tietorakenteet](6-lazy-evaluation/)
-- [Korkeamman asteen tietotyypit](7-higher-order-types/)
-- [Kapselointi funktionaalisessa ohjelmoinnissa](8-encapsulation/)
+- [Ohjelmien suunnittelu](5-functional-design/)
+- [Funktiot arvoina](6-first-class-functions/) (TODO)
+- [Äärettömät tietorakenteet](7-lazy-evaluation/) (TODO)
+- [Korkeamman asteen tietotyypit](8-higher-order-types/) (TODO)
+- [Kapselointi funktionaalisessa ohjelmoinnissa](9-encapsulation/) (TODO)
 
